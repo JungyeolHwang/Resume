@@ -1,4 +1,4 @@
-# John Doe - Detailed Career History
+# JungYeol Hwang - Detailed Career History
 
 ## Project Experience
 
@@ -40,11 +40,9 @@
 **Project Overview:** Built an innovative query tuning system leveraging Elasticsearch and cloud AI APIs
 
 **Key Roles and Responsibilities:**
-- Selected AI models and prepared training data
 - Constructed log analysis system using Elasticsearch
-- Developed and implemented query optimization algorithms
 
-**Technologies Used:** Elasticsearch, Python, TensorFlow, AWS SageMaker
+**Technologies Used:** Elasticsearch, Filebeat, Python
 
 **Key Achievements:**
 - Enhanced database query performance by an average of 50%
@@ -66,7 +64,7 @@
 - Decreased system downtime by 70%
 - Established proactive fault prevention system through real-time performance monitoring
 
-### 5. Large-scale Database Backup Automation Project (2022)
+### 5. Large-scale Database Backup Automation Project (2023)
 
 **Project Overview:** Developed automated backup solution for 50+ database instances
 
@@ -75,7 +73,7 @@
 - Developed backup automation and monitoring system using Python scripts
 - Implemented automated transfer of backup files to external storage
 
-**Technologies Used:** XtraBackup, MariaBackup, Python, AWS S3
+**Technologies Used:** XtraBackup, MariaBackup, Python
 
 **Key Achievements:**
 - Achieved 99.99% data recovery reliability
@@ -85,19 +83,19 @@
 ## Technical Stack
 
 - **Databases:** MySQL, MariaDB, Oracle SE
-- **Cloud:** AWS (EC2, RDS, S3, SageMaker, DMS)
+- **Cloud:** AWS (EC2, RDS, DMS)
 - **Monitoring:** Grafana, Prometheus, PMM
 - **Backup Tools:** XtraBackup, MariaBackup
 - **Programming:** Python, SQL
-- **DevOps:** Ansible, Terraform, CI/CD pipelines
-- **Data Processing:** Elasticsearch, TensorFlow
+- **DevOps:** Ansible
+- **Data Processing:** Elasticsearch, Filebeat
 
 ## Expertise and Competencies
 
 - Large-scale database system design and optimization
 - Cloud migration strategy development and execution
 - Database performance tuning and troubleshooting
-- Database management automation using AI/ML technologies
+- Database management automation Using Python
 - High availability and disaster recovery solution design
 - Database security and compliance management
 
