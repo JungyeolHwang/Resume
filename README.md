@@ -1,7 +1,7 @@
 JungYeol Hwang
 Junior Database Engineer
 
-📧 sulum@naver.com | 📞 (+82) 010-9626-9680 | 📍 Seoul, South Korea
+📧 sulum@naver.com  | 📍 Seoul, South Korea
 
 
 💼 Professional Summary
