@@ -11,19 +11,19 @@ Innovative Database Engineer with a proven track record in large-scale system ma
 
 🚀 Key Achievements
 
-Cloud Migration Champion: Led Oracle SE migration to AWS EC2, projecting 30% cost reduction
+Cloud Migration: Led Oracle SE migration to AWS EC2, projecting 30% cost reduction
 
-Scalability Expert: Migrated 100+ MySQL/MariaDB instances to AWS, boosting scalability by 300%
+Scalability: Migrated 100+ MySQL/MariaDB instances to AWS, boosting scalability by 300%
 
 Performance Optimizer: Developed AI-based query optimization system, slashing response times
 
-Downtime Destroyer: Implemented real-time monitoring, reducing system downtime by 70%
+Reduced Downtime : Implemented real-time monitoring, reducing system downtime by 70%
 
-Backup Maestro: Automated backups for 50+ instances, achieving 99.99% recovery reliability
+Automated Backup: Automated backups for 50+ instances, achieving 99.99% recovery reliability
 
 Collaboration Catalyst: Built serverless communication system, improving team efficiency by 50%
 
-Security Sentinel: Enhanced database security, accelerating ISMS certification by 30%
+Security Improment : Enhanced database security, accelerating ISMS certification by 30%
 Knowledge Amplifier: Led database training, boosting team problem-solving skills by 70%
 
 
