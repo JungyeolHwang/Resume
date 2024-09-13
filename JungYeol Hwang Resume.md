@@ -1,7 +1,7 @@
-# JOHN DOE
+# JungYeol Hwang
 **Senior Database Engineer**
 
-📧 johndoe@email.com | 📞 (123) 456-7890 | 📍 City, State
+📧 sulum@naver.com | 📞 (+82) 010-9626-9680 | 📍 Seoul, South Korea
 
 ---
 
