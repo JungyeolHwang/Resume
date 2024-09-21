@@ -38,9 +38,8 @@ Innovative Database Engineer with a proven track record in large-scale system ma
 
 ## 🎓 Education & Certifications
 
-- **B.S. in Computer Science**, University Name, Year
-- AWS Certified Database Specialty
-- Oracle Certified Professional (OCP)
+- **B.S. in Computer Science**, Kookmin University Name, 2003 ~ 2012
+
 
 ---
 
