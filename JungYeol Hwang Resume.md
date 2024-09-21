@@ -38,7 +38,7 @@ Innovative Database Engineer with a proven track record in large-scale system ma
 
 ## 🎓 Education & Certifications
 
-- **B.S. in Computer Science**, Kookmin University Name, 2003 ~ 2012
+- **B.S. in Computer Science**, Kookmin University, Seoul Sungbuk-gu, 2003 ~ 2012
 
 
 ---
