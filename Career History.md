@@ -2,8 +2,6 @@
 Junior Database Engineer
 📧 sulum@naver.com | 📍 서울, 대한민국
 
-## Professional Summary
-대규모 시스템 관리, 클라우드 마이그레이션 및 성능 최적화에서 뛰어난 성과를 보여준 데이터베이스 엔지니어입니다. 최신 데이터베이스 기술을 활용하여 운영 효율성을 높이고, 비용 절감을 실현하는 데 집중하고 있습니다.
 
 ## Projects
 ## 1. 대규모 MySQL/MariaDB 클라우드 마이그레이션 (2024)
