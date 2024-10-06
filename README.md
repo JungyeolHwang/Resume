@@ -5,7 +5,7 @@
 
 1. 해커스교육그룹 / Database Administrator / 파트장 / 2022.06 ~ 현재
    
-   Role : 백업, 복구, 버전 업그레이드, Query Tunning, Data Modeling 및 검수, 장애 모니터링
+   Role : Mysql, MariaDB, AWS Aurora Mysql 백업, 복구, 버전 업그레이드, Query Tunning, Data Modeling 및 검수, 장애 모니터링
 
 
 
