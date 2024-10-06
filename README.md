@@ -8,14 +8,17 @@
 Role : 백업, 복구, 버전 업그레이드, Query Tunning, Data Modeling 및 검수, 장애 모니터링
 
 
+
 2. 카페24 / Backend Developer/ CSD5팀 사원 / 2020.07 ~ 2021.12 (1년 6개월)
    
 Role : LINKED 통합 시스템 개발
 
 
+
 3. 시스게이트 / Backend Developer / 대리 / 2019.02 ~ 2020.07 (1년 6개월)
    
 Role : RFID 백업저장매체 관리시스템 리뉴얼, 서버 이전관리시스템 개발
+
 
 
 4. 하나금융티아이 / Backend Developer / 은행서비스팀 주임 | 2012.12 ~ 2014.05 (1년 6개월)
