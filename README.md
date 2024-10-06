@@ -1,4 +1,4 @@
-황정열
+황정열 
 📧 sulum@naver.com 
 
 # 💼 경력
@@ -40,8 +40,3 @@ G-TELP 영어 | 69점 / 2급 / PASS | 2016.03 취득
 # 💻 보유 기술
 
 MariaDB, MySQL, Oracle, ElasticSearch, Shell Script, Ansible, Python, JavaScript, Java
-
-
-# 🎖️ 병역사항
-
-육군 이병 | 2005.06 ~ 2007.08 | 소집해제
