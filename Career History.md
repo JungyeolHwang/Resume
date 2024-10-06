@@ -26,7 +26,7 @@ Junior Database Engineer
 - Description: 실시간 데이터베이스 모니터링 대시보드를 설계하고, Slack과 Telegram API를 연동하여 알림 시스템을 구축했습니다.
 - Problem Solving: 초기 과도한 알림 문제를 필터링 및 프로메테우스 우선순위 설정을 통해 해결했습니다.
 
-## 4. 대규모 데이터베이스 백업 자동화 프로젝트 (2024)
+## 4. 대규모 데이터베이스 백업 자동화 프로젝트 (2023)
 - Role : 50개 이상의 데이터베이스 인스턴스에 대해 XtraBackup과 MariaBackup을 사용하여 자동 백업 시스템을 구축했습니다.
 - Skill : XtraBackup, MariaBackup, Python
 - Description: Python 스크립트를 사용하여 백업 자동화를 구현하고, 스토리지 비용을 절감하기 위해 백업 파일 압축 및 전송을 최적화했습니다.
