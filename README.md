@@ -5,29 +5,20 @@
 
 1. 해커스교육그룹 | 파트장 | 2022.06 ~ 현재
 
-직무: Database Administrator
-주요 업무: 백업, 복구, 버전 업그레이드, Query Tunning, Data Modeling 및 검수, 장애 모니터링
+Database Administrator
+Role : 백업, 복구, 버전 업그레이드, Query Tunning, Data Modeling 및 검수, 장애 모니터링
 
 
 2. 카페24 | CSD5팀 사원 | 2020.07 ~ 2021.12 (1년 6개월)
-Backend Developer
-
-Role : LINKED 통합 시스템 개발
+Backend Developer / Role : LINKED 통합 시스템 개발
 
 
 4. 시스게이트 | 대리 | 2019.02 ~ 2020.07 (1년 6개월)
-Backend Developer
-
-Role : 
-RFID 백업저장매체 관리시스템 리뉴얼
-서버 이전관리시스템 개발
+Backend Developer / Role : RFID 백업저장매체 관리시스템 리뉴얼, 서버 이전관리시스템 개발
 
 
 4. 하나금융티아이 | 은행서비스팀 주임 | 2012.12 ~ 2014.05 (1년 6개월)
-Backend Developer
-
-Role :
-하나캐피탈 차세대 시스템 인사 ERP 개발, 유지보수
+Backend Developer / Role : 하나캐피탈 차세대 시스템 인사 ERP 개발, 유지보수
 
 
 
