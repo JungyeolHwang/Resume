@@ -1,55 +1,34 @@
-JungYeol Hwang
-Junior Database Engineer
+황정열 주니어 데이터베이스 엔지니어
 
-📧 sulum@naver.com  | 📍 Seoul, South Korea
+📧 sulum@naver.com | 📍 서울, 대한민국
 
+💼 경력 요약
 
-💼 Professional Summary
+🚀 주요 성과
 
-Innovative Database Engineer with a proven track record in large-scale system management, cloud migration, and performance optimization. Consistently delivers high-impact solutions, driving operational efficiency and cost savings through cutting-edge database technologies and strategies.
+클라우드 마이그레이션: Oracle SE를 AWS EC2로 마이그레이션을 주도하여 30% 비용 절감 예상
+확장성 개선: 100개 이상의 MySQL/MariaDB 인스턴스를 AWS로 마이그레이션, 확장성 300% 증가
+성능 최적화: AI 기반의 쿼리 최적화 시스템을 개발하여 응답 시간 단축
+다운타임 감소: 실시간 모니터링을 구현하여 시스템 다운타임 70% 감소
+백업 자동화: 50개 이상의 인스턴스에 대한 백업을 자동화하여 99.99% 복구 신뢰성 달성
+협업 개선: 서버리스 통신 시스템을 구축하여 팀 효율성 50% 향상
+보안 강화: 데이터베이스 보안을 강화하여 ISMS 인증을 30% 더 빠르게 획득
+지식 확산: 데이터베이스 교육을 주도하여 팀의 문제 해결 능력 70% 향상
 
+💻 기술 역량
 
-🚀 Key Achievements
+데이터베이스: MySQL, MariaDB, Oracle SE
+클라우드: AWS (EC2, Lambda, DynamoDB, API Gateway)
+모니터링: Grafana, Prometheus, PMM
+백업: XtraBackup, MariaBackup
+프로그래밍: Python
+DevOps: Ansible, CI/CD 파이프라인
+데이터 처리: Elasticsearch, Filebeat
 
-Cloud Migration: Led Oracle SE migration to AWS EC2, projecting 30% cost reduction
+🎓 학력 및 자격증
 
-Scalability: Migrated 100+ MySQL/MariaDB instances to AWS, boosting scalability by 300%
+학사: 국민대학교 컴퓨터공학과 (2003 ~ 2012 졸업)
+🌐 언어
 
-Performance Optimizer: Developed AI-based query optimization system, slashing response times
-
-Reduced Downtime : Implemented real-time monitoring, reducing system downtime by 70%
-
-Automated Backup: Automated backups for 50+ instances, achieving 99.99% recovery reliability
-
-Collaboration Catalyst: Built serverless communication system, improving team efficiency by 50%
-
-Security Improment : Enhanced database security, accelerating ISMS certification by 30%
-Knowledge Amplifier: Led database training, boosting team problem-solving skills by 70%
-
-
-💻 Technical Arsenal
-Databases: MySQL, MariaDB, Oracle SE
-
-
-Cloud: AWS (EC2, Lambda, DynamoDB, API Gateway)
-
-Monitoring: Grafana, Prometheus, PMM
-
-Backup: XtraBackup, MariaBackup
-
-Programming: Python
-
-DevOps: Ansible, CI/CD pipelines
-
-Data Processing: Elasticsearch, Filebeat
-
-
-🎓 Education & Certifications
-B.S. in Computer Science, Kookmin University 2003 ~ 2012 Graduated
-
-
-🌐 Languages
-Korean (Native)
-English
-Professional reading and writing proficiency
-Business communication skills in development
+한국어: 모국어
+영어: 전문적인 읽기 및 쓰기 능력, 개발 관련 비즈니스 커뮤니케이션 가능
