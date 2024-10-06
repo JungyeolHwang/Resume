@@ -1,5 +1,5 @@
-황정열 
-📧 sulum@naver.com 
+정열 황 (JungYeol Hwang)
+Junior Database Engineer 📧 sulum@naver.com | 📍 서울, 대한민국
 
 # 💼 경력
 
