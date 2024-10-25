@@ -25,7 +25,7 @@ Problem Solving: mysqldumpslow를 사용해 로그 중복을 92% 감소시켰고
  
  ## 대규모 데이터베이스 백업 자동화 프로젝트 (2023)
 - Role: 총 62개의 데이터베이스 인스턴스(MySQL 40개, MariaDB 22개)에 대한 자동 백업 시스템을 구축했습니다.
-- Skill: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
+- Skill: XtraBackup 8.0, MariaBackup 10.5, Python 3.8, Ansible
 - Description: Python 스크립트로 백업 자동화를 구현하여 수동 작업 시간을 주당 40시간에서 2시간으로 95% 감소시켰습니다. 백업 파일 압축으로 스토리지 사용량을 30% 절감했습니다.
 - Problem Solving: 단일 스레드 방식 대비 멀티스레드 구현 시도로 처리 시간을 20% 단축하려 했으나 실패했습니다. 대신 백업 스케줄 최적화로 전체 백업 시간을 15% 단축했습니다.
 
