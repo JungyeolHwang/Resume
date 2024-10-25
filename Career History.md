@@ -4,7 +4,7 @@ Junior Database Engineer 📧 [sulum@naver.com](mailto:sulum@naver.com) | 📍
 
 ## 대규모 MySQL/MariaDB 클라우드 마이그레이션 (2024)
 - Role : 50개 이상의 MySQL 및 MariaDB 인스턴스를 AWS로 마이그레이션하는 작업을 이끌었습니다.
-- Skill : MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup
+- Skill : MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup, Ansible
 - Description: Xtrabackup을 사용해 실시간 데이터 동기화를 구현하여 평균 99.99% 데이터 정확도를 달성했습니다. Python 3.8로 작성한 데이터 무결성 검증 스크립트로 100TB 이상의 데이터를 검증하여 0건의 데이터 손실을 기록했습니다.
 - Problem Solving: EC2 콜드 카피 방식으로 클러스터 구축 시간을 기존 대비 40% 단축했으나, 바이너리 로그 복제 문제로 Xtrabackup을 이용해 재구축했습니다. 이 과정에서 마이그레이션 소요 시간이 인스턴스당 평균 2시간에서 3.5시간으로 증가했지만, 데이터 정합성을 100% 보장할 수 있었습니다.
 
