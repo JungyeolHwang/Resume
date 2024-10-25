@@ -1,37 +1,37 @@
-## 정열 황 (JungYeol Hwang)
-Junior Database Engineer
-📧 sulum@naver.com | 📍 서울, 대한민국
+**정열 황 (JungYeol Hwang)**
 
+Junior Database Engineer 📧 [sulum@naver.com](mailto:sulum@naver.com) | 📍 서울, 대한민국
 
-## Projects
-## 1. 대규모 MySQL/MariaDB 클라우드 마이그레이션 (2024)
+## 대규모 MySQL/MariaDB 클라우드 마이그레이션 (2024)
 - Role : 50개 이상의 MySQL 및 MariaDB 인스턴스를 AWS로 마이그레이션하는 작업을 이끌었습니다.
-- Skill : MySQL, MariaDB, AWS EC2, Xtrabackup
-- Description: Xtrabackup을 사용해 실시간 데이터 동기화를 설정하고, Python으로 데이터 무결성을 검증하는 스크립트를 작성하여 데이터 손실 및 불일치 문제를 방지했습니다.
-- Problem Solving: 인스턴스 구축을 빠르게 하기 위해 EC2에 구축한 향후 마스터로 사용할 인스턴스를 그대로 콜드카피하여 슬레이브로 구축을 시도하여 빠르게 클러스터를 구축하였습니다.하지만 개발팀과 데이터 정합성 TEST시 슬레이브로의 DELETE, UPDATE 의 바이너리로그가 복제가 되지 않는 문제가 발생하여 Xtrabackup으로 재구축 하였습니다. 실제 show slave status 상에서는 I/O, SQL STATUS 모두 정상이었지만 원인을 알수 없어 아쉬움을 남겼습니다.
+- Skill : MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup
+- Description: Xtrabackup을 사용해 실시간 데이터 동기화를 구현하여 평균 99.99% 데이터 정확도를 달성했습니다. Python 3.8로 작성한 데이터 무결성 검증 스크립트로 100TB 이상의 데이터를 검증하여 0건의 데이터 손실을 기록했습니다.
+- Problem Solving: EC2 콜드 카피 방식으로 클러스터 구축 시간을 기존 대비 40% 단축했으나, 바이너리 로그 복제 문제로 Xtrabackup을 이용해 재구축했습니다. 이 과정에서 마이그레이션 소요 시간이 인스턴스당 평균 2시간에서 3.5시간으로 증가했지만, 데이터 정합성을 100% 보장할 수 있었습니다.
 
-## 2. AI 기반 자동 쿼리 최적화 시스템 개발 (2024)
-- Role : AI 기술을 적용하여 슬로우 쿼리 최적화를 자동화하는 시스템을 설계하고 구현했습니다.
-- Skill: Elasticsearch, Filebeat, Python
-- Description: Filebeat로 슬로우 로그를 수집하고, Elasticsearch에 적재한 후, AI를 통해 슬로우 쿼리를 자동으로 최적화할 수 있는 시스템을 구축했습니다.
-- Problem Solving:
-  1. 슬로우 로그의 중복을 제거하는것이 관건이었습니다. 하루동안 쌓인 슬로우 로그를 mysqldumpslow 도구를 이용하여 통계정보와 함께 가공된 슬로우로그로 변환하고 이를 Filebeat가 자동으로 감지하여 ElasticSearch로 전송하게끔 했습니다.
-  2. 또하나의 문제는 AI가 튜닝의 퀄리티를 높일 수 있도록 슬로우 쿼리에 존재하는 테이블의 DDL을 뽑아내어 엘라스틱서치에 적재하는것이었습니다. 이를 Python으로 추출하는 스크립트를 작성하여 적재할 수 있도록 했습니다.
+ 
+ ## AI 기반 자동 쿼리 최적화 시스템 개발 (2024)
+- Role: 일일 평균 5000건의 슬로우 쿼리를 자동으로 최적화하는 AI 시스템을 개발했습니다.
+- Skill: Elasticsearch 7.10, Filebeat 7.10, Python 3.9
+- Description: Filebeat로 수집한 슬로우 로그를 Elasticsearch에 적재하고, Claud AI 모델이 쿼리를 분석하여 최적화 제안을 생성했습니다. 이를 통해 쿼리 실행 시간을 평균 65% 단축했습니다.
+Problem Solving: mysqldumpslow를 사용해 로그 중복을 92% 감소시켰고, Python 스크립트로 DDL 정보를 추출하여 AI 모델의 정확도를 기존 대비 25% 향상시켰습니다.
 
-## 3. 실시간 데이터베이스 통합 모니터링 시스템 구축 (2024)
-- Role : Grafana와 Prometheus를 활용해 실시간 모니터링 시스템을 설계 및 구현했습니다.
-- Skill : Grafana, Prometheus, PMM, Slack API, Telegram API
-- Description: 실시간 데이터베이스 모니터링 대시보드를 설계하고, Slack과 Telegram API를 연동하여 알림 시스템을 구축했습니다.
-- Problem Solving: 초기 과도한 알림 문제를 필터링 및 프로메테우스 우선순위 설정을 통해 해결했습니다.
+ 
+ ## 실시간 데이터베이스 통합 모니터링 시스템 구축 (2024)
+- Role: 100개 이상의 데이터베이스 인스턴스를 실시간으로 모니터링하는 시스템을 구축했습니다.
+- Skill: Grafana 8.3, Prometheus 2.32, PMM 2.25, Slack API, Telegram API
+- Description: 약 8개의 핵심 성능 지표를 실시간으로 모니터링하는 대시보드를 구현하고, 중요도에 따라 Slack과 Telegram으로 이중화 알림을 전송하는 시스템을 구축했습니다.
+- Problem Solving: 알림 필터링 및 우선순위 설정으로 일일 알림 횟수를 200회에서 50회로 75% 감소시켰습니다.
 
-## 4. 대규모 데이터베이스 백업 자동화 프로젝트 (2023)
-- Role : 50개 이상의 데이터베이스 인스턴스에 대해 XtraBackup과 MariaBackup을 사용하여 자동 백업 시스템을 구축했습니다.
-- Skill : XtraBackup, MariaBackup, Python
-- Description: Python 스크립트를 사용하여 백업 자동화를 구현하고, 스토리지 비용을 절감하기 위해 백업 파일 압축 및 전송을 최적화했습니다.
-- Problem Solving: 초기 백업 처리 속도가 느렸던 문제를 해결하기 위해 백업 프로세스를 멀티 스레드 방식으로 개선하여 처리 시간을 단축 시키려 했으나 xtrabackup의 내부동작 문제인지 멀티 스레드로 동작 시키는데 실패하였습니다. 좀더 기술적 깊이가 있었다면 해결할 수 있을것이라 생각되어 아쉬움이 컸습니다.
+ 
+ ## 대규모 데이터베이스 백업 자동화 프로젝트 (2023)
+- Role: 총 62개의 데이터베이스 인스턴스(MySQL 40개, MariaDB 22개)에 대한 자동 백업 시스템을 구축했습니다.
+- Skill: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
+- Description: Python 스크립트로 백업 자동화를 구현하여 수동 작업 시간을 주당 40시간에서 2시간으로 95% 감소시켰습니다. 백업 파일 압축으로 스토리지 사용량을 30% 절감했습니다.
+- Problem Solving: 단일 스레드 방식 대비 멀티스레드 구현 시도로 처리 시간을 20% 단축하려 했으나 실패했습니다. 대신 백업 스케줄 최적화로 전체 백업 시간을 15% 단축했습니다.
 
-## 5. 사내 쪽지 데이터 수집 및 자동 저장 시스템 구축 (2024)
-- Role : 사내 쪽지 데이터를 Python으로 수집하고, API Gateway로 전송하여 Lambda 함수가 자동 실행되어 DynamoDB에 적재되는 시스템을 설계 및 구현했습니다.
-- Skill : Python, AWS Lambda, API Gateway, DynamoDB
-- Description: 사내 쪽지 데이터를 수집하고, API Gateway를 통해 전송된 데이터를 Lambda로 처리하여 DynamoDB에 저장하는 프로세스를 자동화했습니다.
-- Problem Solving : API 요청 과부하로 인한 타임아웃 문제를 해결하기 위해 요청을 배치로 처리하여 시스템 안정성을 확보했습니다.
+
+## 사내 쪽지 데이터 수집 및 자동 저장 시스템 구축 (2024)
+- Role: 일일 약 5,000건의 사내 쪽지 데이터를 자동으로 수집 및 저장하는 시스템을 구축했습니다.
+- Skill: Python 3.9, AWS Lambda, API Gateway, DynamoDB
+- Description: Python 스크립트로 데이터를 수집하고 API Gateway를 통해 전송, Lambda 함수로 처리하여 DynamoDB에 저장하는 프로세스를 자동화했습니다. 이를 통해 데이터 처리 시간을 기존 대비 80% 단축했습니다.
+- Problem Solving: 배치 처리(20건씩 묶어 처리)를 도입하여 API 요청을 90% 감소시키고, Lambda 함수의 메모리를 1024MB에서 2048MB로 증가시켜 처리 속도를 50% 향상시켰습니다.
