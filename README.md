@@ -85,13 +85,13 @@ MariaDB, MySQL, Oracle, ElasticSearch, Shell Script, Ansible, Python, JavaScript
 * Description: Implemented a real-time dashboard monitoring eight key performance metrics including CPU, Memory, Disk I/O, and Slow Query Rate. Established threshold settings and alert priority logic for rapid operational response.
 * Problem Solving: Reduced daily alert volume by 75% (from 200 to 50) through alert filtering and priority configuration.
 
-**4. Large-Scale Database Backup Automation Project (2023)**
+**4. Large-Scale Database Backup Automation Project (2024)**
 * Role: Implemented automated backup system for 62 database instances (40 MySQL, 22 MariaDB).
 * Skills: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
 * Description: Rewrote existing shell scripts in Python, implementing code modularization and unit testing. This improved code reusability and reduced maintenance time by 75% (from 20 to 5 hours monthly). Manual operation time decreased by 95% (from 40 to 2 hours weekly).
 * Problem Solving: Attempted to reduce processing time by 20% through multi-threading but encountered limitations. Instead, achieved 15% reduction in overall backup time through backup schedule optimization.
 
-**5. Internal Messaging Data Collection and Storage System (2024)**
+**5. Internal Messaging Data Collection and Storage System (2023)**
 * Role: Developed an automated system for collecting and storing approximately 5,000 daily internal messages.
 * Skills: Python 3.9, AWS Lambda, API Gateway, DynamoDB
 * Description: Automated the process of collecting message data using Python scripts, transmitting via API Gateway, and storing in DynamoDB through Lambda functions. Reduced data processing time by 80% compared to the previous system.
