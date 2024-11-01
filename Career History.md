@@ -13,7 +13,7 @@ Junior Database Engineer 📧 [sulum@naver.com](mailto:sulum@naver.com) | 📍
 
 **2. AI 기반 자동 쿼리 최적화 시스템 개발 (2024)**
 
-- Role: 일일 평균 5000건의 슬로우 쿼리를 자동으로 최적화하는 시스템을 개발했습니다.
+- Role: 서버 100대의 슬로우 쿼리를 자동으로 수집, 최적화하는 시스템을 개발했습니다.
 - Skill: Elasticsearch 7.10, AWS RDS, Aurora MySQL, AWS Lambda, EventBridge, Python 3.9
 - Description: 체계적인 쿼리 최적화 프로세스를 수립하고 자동화했습니다:
     1. 슬로우 쿼리 수집 자동화
