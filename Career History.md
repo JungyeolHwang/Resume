@@ -3,7 +3,7 @@
 Database Engineer, Administrator 📧 [sulum@naver.com](mailto:sulum@naver.com) | 📍 서울, 대한민국
 
 **1. 대규모 MySQL/MariaDB 클라우드 마이그레이션 프로젝트 (2024)**
-- 규모: 50개 이상의 MySQL 8.0 및 MariaDB 10.5 인스턴스, 총 100TB+ 데이터
+- 규모: 50개 이상의 MySQL 8.0 및 MariaDB 10.5 인스턴스, 총 10TB+ 데이터
 - 주요 성과:
   - 데이터 정합성 100% 달성 (0건의 데이터 손실)
   - 마이그레이션 소요시간 40% 단축 (인스턴스당 5시간 → 3시간)
