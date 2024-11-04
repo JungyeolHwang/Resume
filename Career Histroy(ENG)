@@ -1,53 +1,65 @@
 **JungYeol Hwang**
-Junior Database Engineer 📧 sulum@naver.com | 📍 Seoul, South Korea
+Junior Database Engineer, Administrator
 
-**Projects**
+**1. Large-scale MySQL/MariaDB Cloud Migration Project (2024)**
+- Scale: 50+ MySQL 8.0 and MariaDB 10.5 instances, 10TB+ total data
+- Key Achievements:
+  - Achieved 100% data consistency (zero data loss)
+  - Reduced migration time by 40% (from 5 hours to 3 hours per instance)
+  - Accelerated company-wide cloud transition roadmap by 6 months
+- Technical Challenges & Solutions:
+  - Challenge: Binary log replication errors during initial EC2 cold copy approach
+  - Solution: Implemented real-time data synchronization using Xtrabackup
+  - Result: Guaranteed 99.99% data accuracy with zero-downtime migration
+- Technologies: MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup, Python 3.8
 
-**1. Large-Scale MySQL/MariaDB Cloud Migration (2024)**
-* Role: Led the migration of over 50 MySQL and MariaDB instances to AWS.
-* Skills: MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup
-* Description: Implemented real-time data synchronization using Xtrabackup, achieving 99.99% data accuracy. Developed data integrity verification scripts in Python 3.8, validating over 100TB of data with zero data loss.
-* Problem Solving: Initially reduced cluster deployment time by 40% using EC2 cold copy method. However, due to binary log replication issues, had to rebuild using Xtrabackup. While this increased migration time per instance from 2 to 3.5 hours, it ensured 100% data consistency.
+**2. AI-Based Query Optimization Automation System (2024)**
+- Scale: Analysis/optimization of 50,000 daily queries across 100 servers
+- Key Achievements:
+  - Improved query response time by 60% (student course history lookup: 3s → 1.2s)
+  - Reduced settlement batch processing time by 67% (15min → 5min)
+  - Saved 80 hours of monthly DBA team query tuning workload
+- Technical Implementation:
+  1. Automated slow query collection pipeline
+     - Automated RDS/Aurora slow query collection using AWS EventBridge + Lambda
+     - Reduced duplicate analysis by 90% through query normalization/hashing
+  2. Pattern-based optimization strategy automation
+     - Converted correlated subqueries to LATERAL JOINs
+     - Optimized multi-nested subqueries
+     - Automated composite index design
+- Technologies: Elasticsearch 7.10, AWS RDS, Aurora MySQL, Lambda, Python 3.9
 
-**2. AI-Based Automated Query Optimization System (2024)**
-* Role: Developed a system that automatically optimizes an average of 5,000 slow queries daily.
-* Skills: Elasticsearch 7.10, AWS RDS, Aurora MySQL, AWS Lambda, EventBridge, Python 3.9
-* Description: Established and automated a systematic query optimization process:
-  1. Automated Slow Query Collection
-     - Implemented periodic slow query log collection from RDS and Aurora MySQL using AWS EventBridge
-     - Developed query normalization and hashing logic using Lambda functions for duplicate query identification
-     - Built a pipeline for generating unique hash IDs and loading into Elasticsearch
-     - Reduced duplicate query analysis by 90% and optimization target identification time by 75%
-  2. Query Structure Optimization
-     - Improved student course history query performance by 60% by converting complex correlated subqueries to LATERAL JOINs
-     - Reduced course enrollment statistics aggregation time by 45% through subquery-to-JOIN conversion
-     - Optimized settlement queries: Added explicit date range comparisons and composite indexes, reducing processing time from 15 to 5 minutes
-  3. Index Optimization
-     - Eliminated full table scans by designing composite indexes for key search conditions
-     - Enhanced join order and table access methods through execution plan analysis
-* Problem Solving: 
-  1. Query Normalization and Hashing Process
-     - Grouped identical query patterns by parameterizing literal values
-     - Generated unique IDs for query patterns using hashing algorithms
-     - Automated optimization strategy mapping based on normalized query patterns
-  2. Optimization Pattern Automation
-     - Automated EXPLAIN analysis for generating optimization suggestions
-     - Improved index optimization accuracy by incorporating table schema information
+**3. Integrated Monitoring System Implementation (2024)**
+- Scale: Real-time monitoring of 100+ DB instances
+- Key Improvements:
+  - Reduced incident detection time from 30min to 5min
+  - Decreased unnecessary alerts by 75% (200 to 50 daily)
+  - Cut operations team response time by 60%
+- Implementation Details:
+  - Real-time dashboard for 8 core performance metrics
+  - Established 3-tier alert priority system
+  - Instant notification system via Slack/Telegram integration
+- Technologies: Grafana 8.3, Prometheus 2.32, PMM 2.25
 
-**3. Real-Time Database Monitoring System Implementation (2024)**
-* Role: Built a real-time monitoring system for over 100 database instances.
-* Skills: Grafana 8.3, Prometheus 2.32, PMM 2.25, Slack API, Telegram API
-* Description: Implemented a real-time dashboard monitoring eight key performance metrics including CPU, Memory, Disk I/O, and Slow Query Rate. Established threshold settings and alert priority logic for rapid operational response.
-* Problem Solving: Reduced daily alert volume by 75% (from 200 to 50) through alert filtering and priority configuration.
+**4. Database Backup Automation Project (2023)**
+- Scale: 40 MySQL and 22 MariaDB instances
+- Key Achievements:
+  - Reduced backup failure rate from 5% to 0.1%
+  - Cut manual operation time by 95% (40 hours to 2 hours weekly)
+  - Achieved 99.9% data recovery reliability through automated backup verification
+- Technical Improvements:
+  - Reduced maintenance time by 75% through Python-based modularization
+  - Optimized backup scheduling resulting in 15% reduction in total execution time
+- Technologies: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
 
-**4. Large-Scale Database Backup Automation Project (2023)**
-* Role: Implemented automated backup system for 62 database instances (40 MySQL, 22 MariaDB).
-* Skills: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
-* Description: Rewrote existing shell scripts in Python, implementing code modularization and unit testing. This improved code reusability and reduced maintenance time by 75% (from 20 to 5 hours monthly). Manual operation time decreased by 95% (from 40 to 2 hours weekly).
-* Problem Solving: Attempted to reduce processing time by 20% through multi-threading but encountered limitations. Instead, achieved 15% reduction in overall backup time through backup schedule optimization.
-
-**5. Internal Messaging Data Collection and Storage System (2024)**
-* Role: Developed an automated system for collecting and storing approximately 5,000 daily internal messages.
-* Skills: Python 3.9, AWS Lambda, API Gateway, DynamoDB
-* Description: Automated the process of collecting message data using Python scripts, transmitting via API Gateway, and storing in DynamoDB through Lambda functions. Reduced data processing time by 80% compared to the previous system.
-* Problem Solving: Implemented batch processing (20 items per batch) to reduce API requests by 90% and increased Lambda function memory from 1024MB to 2048MB, improving processing speed by 50%.
+**5. Internal Messaging Data Automation System (2023)**
+- Scale: Processing 5,000 daily message data entries
+- Key Achievements:
+  - Reduced data processing time by 80%
+  - Decreased API request load by 90%
+  - Achieved 99.9% system stability
+- Technical Solutions:
+  - Implemented batch processing (20 items per batch)
+  - Enhanced processing speed by 50% through Lambda memory optimization
+  - Optimized DynamoDB partitioning
+- Technologies: Python 3.9, AWS Lambda, API Gateway, DynamoDB
