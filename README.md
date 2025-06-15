@@ -144,7 +144,7 @@ Expert in data migration, performance tuning, query optimization, and cloud-nati
 
 ---
 
-### 6. **Multi-Master DDL Scheduling System** *(2023)*  
+### 6. **Multi-Master DDL Scheduling System** *(2025)*  
 - Managed schema changes on 50+ master instances with zero downtime  
 - Developed Python-based job scheduler + Node.js web dashboard  
 - Enabled time-based execution, real-time job monitoring, and role-based approval  
@@ -154,7 +154,7 @@ Expert in data migration, performance tuning, query optimization, and cloud-nati
 
 ---
 
-### 7. **GitOps-Based DDL Deployment Automation** *(2024)*  
+### 7. **GitOps-Based DDL Deployment Automation** *(2025)*  
 - Implemented GitHub → Lambda → Production DB auto-deploy pipeline  
 - Used Skeema to extract and diff schema, validated via internal AI server  
 - Reduced deployment time by 95%, human error by 90%  
