@@ -48,51 +48,132 @@ MariaDB, MySQL, Oracle, ElasticSearch, Shell Script, Ansible, Python, JavaScript
 
 **Projects**
 
-**1. Large-Scale MySQL/MariaDB Cloud Migration (2024)**
-* Role: Led the migration of over 50 MySQL and MariaDB instances to AWS.
-* Skills: MySQL 8.0, MariaDB 10.5, AWS EC2, Xtrabackup
-* Description: Implemented real-time data synchronization using Xtrabackup, achieving 99.99% data accuracy. Developed data integrity verification scripts in Python 3.8, validating over 100TB of data with zero data loss.
-* Problem Solving: Initially reduced cluster deployment time by 40% using EC2 cold copy method. However, due to binary log replication issues, had to rebuild using Xtrabackup. While this increased migration time per instance from 2 to 3.5 hours, it ensured 100% data consistency.
+# Jeongyeol Hwang  
+**Senior Database Engineer | Cloud Migration & Automation Specialist**  
+📍 Seoul, South Korea  
+📧 sulum85@gmail.com | 🌐 [LinkedIn](https://www.linkedin.com/in/jung-yeol-hwang-91b414171)
 
-**2. AI-Based Automated Query Optimization System (2024)**
-* Role: Developed a system that automatically optimizes an average of 5,000 slow queries daily.
-* Skills: Elasticsearch 7.10, AWS RDS, Aurora MySQL, AWS Lambda, EventBridge, Python 3.9
-* Description: Established and automated a systematic query optimization process:
-  1. Automated Slow Query Collection
-     - Implemented periodic slow query log collection from RDS and Aurora MySQL using AWS EventBridge
-     - Developed query normalization and hashing logic using Lambda functions for duplicate query identification
-     - Built a pipeline for generating unique hash IDs and loading into Elasticsearch
-     - Reduced duplicate query analysis by 90% and optimization target identification time by 75%
-  2. Query Structure Optimization
-     - Improved student course history query performance by 60% by converting complex correlated subqueries to LATERAL JOINs
-     - Reduced course enrollment statistics aggregation time by 45% through subquery-to-JOIN conversion
-     - Optimized settlement queries: Added explicit date range comparisons and composite indexes, reducing processing time from 15 to 5 minutes
-  3. Index Optimization
-     - Eliminated full table scans by designing composite indexes for key search conditions
-     - Enhanced join order and table access methods through execution plan analysis
-* Problem Solving: 
-  1. Query Normalization and Hashing Process
-     - Grouped identical query patterns by parameterizing literal values
-     - Generated unique IDs for query patterns using hashing algorithms
-     - Automated optimization strategy mapping based on normalized query patterns
-  2. Optimization Pattern Automation
-     - Automated EXPLAIN analysis for generating optimization suggestions
-     - Improved index optimization accuracy by incorporating table schema information
+---
 
-**3. Real-Time Database Monitoring System Implementation (2024)**
-* Role: Built a real-time monitoring system for over 100 database instances.
-* Skills: Grafana 8.3, Prometheus 2.32, PMM 2.25, Slack API, Telegram API
-* Description: Implemented a real-time dashboard monitoring eight key performance metrics including CPU, Memory, Disk I/O, and Slow Query Rate. Established threshold settings and alert priority logic for rapid operational response.
-* Problem Solving: Reduced daily alert volume by 75% (from 200 to 50) through alert filtering and priority configuration.
+## 🔹 Summary
 
-**4. Large-Scale Database Backup Automation Project (2024)**
-* Role: Implemented automated backup system for 62 database instances (40 MySQL, 22 MariaDB).
-* Skills: XtraBackup 8.0, MariaBackup 10.5, Python 3.8
-* Description: Rewrote existing shell scripts in Python, implementing code modularization and unit testing. This improved code reusability and reduced maintenance time by 75% (from 20 to 5 hours monthly). Manual operation time decreased by 95% (from 40 to 2 hours weekly).
-* Problem Solving: Attempted to reduce processing time by 20% through multi-threading but encountered limitations. Instead, achieved 15% reduction in overall backup time through backup schedule optimization.
+Experienced Data Platform Engineer with 7+ years across backend development and database administration.  
+Proven ability to design scalable, reliable, and automated systems handling 100+ databases and 10TB+ of mission-critical data.  
+Expert in data migration, performance tuning, query optimization, and cloud-native DevOps workflows for RDBMS and NoSQL systems.
 
-**5. Internal Messaging Data Collection and Storage System (2023)**
-* Role: Developed an automated system for collecting and storing approximately 5,000 daily internal messages.
-* Skills: Python 3.9, AWS Lambda, API Gateway, DynamoDB
-* Description: Automated the process of collecting message data using Python scripts, transmitting via API Gateway, and storing in DynamoDB through Lambda functions. Reduced data processing time by 80% compared to the previous system.
-* Problem Solving: Implemented batch processing (20 items per batch) to reduce API requests by 90% and increased Lambda function memory from 1024MB to 2048MB, improving processing speed by 50%.
+---
+
+## 🔹 Technical Skills
+
+**Databases**  
+- MySQL, MariaDB (Performance, Replication, Backup, Schema Ops)  
+- PostgreSQL (Migration, Tuning), DynamoDB (Data Modeling, ETL)  
+- ElasticSearch (Log Analysis, Visualization)
+
+**Cloud & Automation**  
+- AWS (RDS, EC2, Lambda, DynamoDB, CloudWatch, API Gateway)  
+- Docker, GitHub Actions, PMM, Grafana, Prometheus  
+- CI/CD pipelines, Infrastructure-as-Code
+
+**Languages & Tools**  
+- Python, Bash, YAML, Java, JavaScript (Node.js), Skeema, XtraBackup, MariaBackup
+
+---
+
+## 🔹 Work Experience
+
+### 💼 Senior DBA / Data Platform Engineer  
+**[Your Company Name]**, Seoul, South Korea  
+*Jan 2022 – Present*
+
+---
+
+## 🔹 Major Projects
+
+### 1. **Large-Scale MySQL/MariaDB Cloud Migration** *(2024)*  
+- Migrated 50+ MySQL 8.0 / MariaDB 10.5 instances totaling 10TB+ to AWS EC2  
+- Achieved zero data loss with 100% consistency and 40% faster migration (5h → 3h/instance)  
+- Switched from cold copy to real-time sync using Xtrabackup + binlog replication  
+- Built Python-based validation, rollback, and orchestration framework  
+- Documented full migration playbook for future reuse
+
+**Tech:** MySQL, MariaDB, AWS EC2, Xtrabackup, Python
+
+---
+
+### 2. **DynamoDB to PostgreSQL Automated Migration Framework** *(2024)*  
+- Migrated 50+ DynamoDB tables with over 100M records  
+- Designed YAML-configured, domain-based ETL pipeline with batching and retry support  
+- Implemented complex type transformation (Map → JSON, Timestamp, NULL handling)  
+- Reduced manual operations by 80% and cut total migration time by 60%  
+- Built CloudWatch-integrated monitoring and checkpoint-based recovery
+
+**Tech:** DynamoDB, PostgreSQL, Python, boto3, psycopg2, YAML, Docker, AWS CloudWatch
+
+---
+
+### 3. **AI-Based Query Optimization System** *(2024)*  
+- Created pipeline collecting slow queries from 100+ servers via CloudWatch → Lambda  
+- Extracted query context (DDL, EXPLAIN plans) for offline analysis  
+- Built semi-automated tuning workflow powered by AI + performance metadata  
+- Achieved 60% faster response on key queries, reduced batch job from 15m → 5m  
+- Saved 80+ hours/month in manual DBA efforts
+
+**Tech:** AWS RDS/Aurora, CloudWatch, Lambda, Python
+
+---
+
+### 4. **Unified DB Monitoring Dashboard** *(2024)*  
+- Monitored 100+ DB instances in real-time using Prometheus + Grafana + PMM  
+- Built 8-metric dashboards with alert priority levels (3-tier system)  
+- Reduced incident detection from 30min → 5min  
+- Integrated Slack/Telegram notifications, built trend analysis module  
+- Reduced noisy alerts by 75% (200/day → 50/day)
+
+**Tech:** Grafana 8.3, Prometheus 2.32, PMM 2.25, Slack, Telegram
+
+---
+
+### 5. **Automated Backup System for 60+ Instances** *(2023)*  
+- Covered 40 MySQL + 22 MariaDB instances with modular backup scripts  
+- Dropped backup failure rate from 5% → 0.1%, recovery reliability at 99.9%  
+- Reduced weekly manual work from 40h → 2h  
+- Implemented concurrency and schedule optimization, backup validation automation
+
+**Tech:** XtraBackup, MariaBackup, Python, Cron, Bash
+
+---
+
+### 6. **Multi-Master DDL Scheduling System** *(2023)*  
+- Managed schema changes on 50+ master instances with zero downtime  
+- Developed Python-based job scheduler + Node.js web dashboard  
+- Enabled time-based execution, real-time job monitoring, and role-based approval  
+- Reduced human error by 95%, shortened downtime by 70%
+
+**Tech:** Python, Node.js, Express, MySQL/MariaDB
+
+---
+
+### 7. **GitOps-Based DDL Deployment Automation** *(2024)*  
+- Implemented GitHub → Lambda → Production DB auto-deploy pipeline  
+- Used Skeema to extract and diff schema, validated via internal AI server  
+- Reduced deployment time by 95%, human error by 90%  
+- Supported MySQL, MariaDB, and PostgreSQL
+
+**Tech:** GitHub Actions, Skeema, AWS Lambda, MySQL, PostgreSQL
+
+---
+
+## 🔹 Education
+
+**B.S. in Computer Science (or Relevant Field)**  
+Your University, South Korea  
+*Graduation Year: XXXX*
+
+---
+
+## 🔹 Languages
+
+- **Korean** – Native  
+- **English** – Intermediate (professional documentation, reading, writing)  
+
