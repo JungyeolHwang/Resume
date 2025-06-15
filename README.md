@@ -167,8 +167,8 @@ Expert in data migration, performance tuning, query optimization, and cloud-nati
 ## 🔹 Education
 
 **B.S. in Computer Science (or Relevant Field)**  
-Your University, South Korea  
-*Graduation Year: XXXX*
+Kookmin University, South Korea  
+*Graduation Year: 2012*
 
 ---
 
